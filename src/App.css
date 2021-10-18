@@ -1,0 +1,29 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.255);
+}
+
+button {
+  margin: 5px;
+  width: 55px;
+  height: 25px;
+  background: rgb(79, 90, 237);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background: rgb(36, 34, 155);
+}
